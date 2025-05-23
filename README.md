@@ -128,7 +128,6 @@ CREATE TABLE player_stats (
 ### 🎨 Современная архитектура
 - Разделение логики по слоям (MVC pattern)
 - Dependency Injection через getInstance()
-- Event-driven подход с Bukkit API
 
 ### 🔄 Интеграция с ProjectKorra
 - Использование TempBlock API для временных блоков
