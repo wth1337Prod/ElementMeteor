@@ -1,13 +1,11 @@
 # ElementMeteor
-# Version: 1.0
+# Версия: 1.0
 
 config-version: 1
 
-# General settings
 settings:
   locale: "ru_RU"  # локализация: ru_RU или en_US
 
-# Database settings
 database:
   host: localhost
   port: 3306
@@ -17,31 +15,31 @@ database:
 
 # Настройки абилити
 ability:
-  # Cooldown between uses (in milliseconds, 5000 = 5 seconds)
+  # Время ожидания между использованиями (в миллисекундах, 5000 = 5 секунд)
   cooldown: 5000
   
-  # Maximum range the meteor can travel (in blocks)
+  # Максимальное расстояние, которое может преодолеть метеор (в блоках)
   range: 100.0
   
-  # Speed of meteor movement (blocks per tick)
+  # Скорость движения метеора (блоков за тик)
   speed: 1.2
   
-  # Damage dealt by meteor explosion
+  # Урон, наносимый взрывом метеорита
   damage: 5.0
   
-  # Base explosion radius per usage count
+  # Базовый радиус взрыва на количество использований
   base-radius: 2.0
   
-  # Maximum additional radius
+  # Максимальный дополнительный радиус
   max-additional-radius: 3.0
   
-  # Restoration animation settings
+  # Настройки анимации восстановления
   restoration:
-    # Delay before restoration starts (in seconds)
+    # Задержка перед началом восстановления (в секундах)
     delay: 4
-    # Speed of restoration waves (ticks between layers)
+    # Скорость волн восстановления (тики)
     wave-speed: 3
-    # Enable restoration effects
+    # Включить эффекты восстановления
     effects: true
 
 # Сообщения
