@@ -1,0 +1,13 @@
+# English localization file for ElementMeteor
+prefix: "&6[ElementMeteor] &r"
+no-bending-player: "&cError: Player not found in the magic system"
+ability-given: "&6You received the &cMeteor Ability&6!"
+ability-used: "&6You launched a meteor!"
+ability-item-name: "Meteor Ability"
+ability-item-description: "Left-click to launch meteor"
+command-player-only: "&cOnly players can use this command!"
+command-no-permission: "&cYou don't have permission to use this command!"
+menu-error: "&cAn error occurred while opening the menu!"
+wrong-element: "&cYou cannot take meteor while you have another element set! Set the &6Fire &celement via &e/bending choose Fire"
+no-element: "&cYou have no element selected! Choose the &6Fire &celement via &e/bending choose Fire"
+ability-already-exists: "&cYou already have the &6Meteor &cability in your inventory!"

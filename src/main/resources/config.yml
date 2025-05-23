@@ -1,0 +1,60 @@
+# ElementMeteor
+# Version: 1.0
+
+config-version: 1
+
+# General settings
+settings:
+  locale: "ru_RU"  # локализация: ru_RU или en_US
+
+# Database settings
+database:
+  host: localhost
+  port: 3306
+  name: elementmeteor
+  username: root
+  password: "default_encrypted_password"
+
+# Настройки абилити
+ability:
+  # Cooldown between uses (in milliseconds, 5000 = 5 seconds)
+  cooldown: 5000
+  
+  # Maximum range the meteor can travel (in blocks)
+  range: 100.0
+  
+  # Speed of meteor movement (blocks per tick)
+  speed: 1.2
+  
+  # Damage dealt by meteor explosion
+  damage: 5.0
+  
+  # Base explosion radius per usage count
+  base-radius: 2.0
+  
+  # Maximum additional radius
+  max-additional-radius: 3.0
+  
+  # Restoration animation settings
+  restoration:
+    # Delay before restoration starts (in seconds)
+    delay: 4
+    # Speed of restoration waves (ticks between layers)
+    wave-speed: 3
+    # Enable restoration effects
+    effects: true
+
+# Сообщения
+messages:
+  prefix: "&6[ElementMeteor] &r"
+  no-bending-player: "&cОшибка: Игрок не найден в системе"
+  ability-given: "&6Вы получили способность &cМетеор&6!"
+  ability-used: "&6Вы запустили метеор!"
+  ability-item-name: "Метеорная способность"
+  ability-item-description: "ЛКМ - запустить метеор"
+  command-player-only: "&cЭту команду могут использовать только игроки!"
+  command-no-permission: "&cУ вас нет прав на использование этой команды!"
+  menu-error: "&cПроизошла ошибка при открытии меню!"
+  wrong-element: "&cВы не можете взять метеор пока у вас установлен другой элемент! Установите элемент &6Fire &cчерез &e/bending choose Fire"
+  no-element: "&cУ вас не выбран элемент! Выберите элемент &6Fire &cчерез &e/bending choose Fire"
+  ability-already-exists: "&cУ вас уже есть способность &6Метеор &cв инвентаре!"

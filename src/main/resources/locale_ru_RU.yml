@@ -1,0 +1,13 @@
+# Файл русской локализации для ElementMeteor
+prefix: "&6[ElementMeteor] &r"
+no-bending-player: "&cОшибка: Игрок не найден в системе магии"
+ability-given: "&6Вы получили способность &cМетеор&6!"
+ability-used: "&6Вы запустили метеор!"
+ability-item-name: "Метеорная способность"
+ability-item-description: "ЛКМ - запустить метеор"
+command-player-only: "&cЭту команду могут использовать только игроки!"
+command-no-permission: "&cУ вас нет прав на использование этой команды!"
+menu-error: "&cПроизошла ошибка при открытии меню!"
+wrong-element: "&cВы не можете взять метеор пока у вас установлен другой элемент! Установите элемент &6Fire &cчерез &e/bending choose Fire"
+no-element: "&cУ вас не выбран элемент! Выберите элемент &6Fire &cчерез &e/bending choose Fire"
+ability-already-exists: "&cУ вас уже есть способность &6Метеор &cв инвентаре!"
