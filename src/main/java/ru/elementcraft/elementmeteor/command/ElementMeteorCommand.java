@@ -113,12 +113,6 @@ public class ElementMeteorCommand {
                     return;
                 }
 
-                if (hasAbilityItemInInventory(player)) {
-                    player.sendMessage(getPlugin().getLocaleManager().getMessage("ability-already-exists", "У вас уже есть способность Метеор!", 0));
-                    gui.close(player);
-                    return;
-                }
-
                 try {
                     ItemStack abilityItem = getPlugin().createMeteorAbilityItem();
                     
